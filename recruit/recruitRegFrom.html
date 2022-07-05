@@ -33,9 +33,9 @@
     		color: #D7DF01;
     	}
     	
-    	#backbtn {
-			margin-left: 30%;
-			margin-right: 30%;
+    	#btn {
+			margin-left: 46%;
+			margin-right: 46%;
     	}
     	
 
@@ -44,7 +44,7 @@
 
 <body>
 	<h4>기본정보</h4>
-	<form method="get" action="here.html">
+	<form method="get" action="recruitList.html" id="form">
 	    <!-- table 1 -->
 		<table>                                                            
 			<tr>
@@ -232,7 +232,16 @@
 			</tr>                                                             
 		</table>
 		<br><br>
-		<input type="button"; onclick="history.back()"; value="뒤로가기"; id='backbtn';>
+		<div id='btn'>
+			<input type="button"; onclick="history.back()"; value="뒤로가기";>
+			<input type="button" value="저장" onclick="here();">
+		</div>
 	</form>
+	<script type="text/javascript">
+		function here() {
+		alert("저장되었습니다")
+		document.getElementById("form").submit();
+		}
+	</script>
 </body>
 </html>
