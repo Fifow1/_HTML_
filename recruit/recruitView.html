@@ -7,7 +7,8 @@
     <title>회원관리</title>
     <style type="text/css">
 		table,th,td{
-        	border:1px solid black;height:50px;
+        	border:1px solid black;
+        	height:50px;
         }
     	table{
 	   		width:70%;
@@ -27,11 +28,16 @@
  		h4 {
  			text-align: center;
  		}
+ 
+ 		#btn {
+ 			margin-left: 47%;
+ 			margin-right: 44%;
+ 		}
+
     </style>
 </head>
 <body>
 	<h1 width="100%">입사지원서</h1>
-																	<!-- table 1 -->
 	<table>
 		<tr>
 			<th bgcolor='#D9E5FF'width="100">지원분야</th>
@@ -73,19 +79,19 @@
 			<td bgcolor='#D9E5FF'>전자우편</td>
 			<td>???</td>
 			<td bgcolor='#D9E5FF'>나이</td>
-			<td></td>
+			<td>26</td>
 		</tr>
 		<tr>
 <!--			<td></td>-->
 			<td bgcolor='#D9E5FF'>주소</td>
-			<td colspan="3"></td>
+			<td colspan="3">경상북도</td>
 <!--			<td></td>
 				<td></td>-->
 		</tr>
 		<tr>
 <!--			<td></td>-->
 			<td bgcolor='#D9E5FF'>취미생활</td>
-			<td colspan="3"></td>
+			<td colspan="3">노래</td>
 <!--			<td></td>
 				<td></td>-->
 		</tr>
@@ -103,8 +109,8 @@
 			<td bgcolor='#D9E5FF'width="50">거주지</td>
 		</tr>
 		<tr>
-			<td>2017.03~2021.02</td>
-			<td>00대학교</td>
+			<td>2013.03~2021.02</td>
+			<td>성신여자대학교</td>
 			<td>졸업</td>
 			<td>oo과</td>
 			<td>서울</td>
@@ -130,8 +136,8 @@
 		</tr>
 		<tr>
 			<td height="100"rowspan="2">2017.03~2021.02</td>
-			<td height="100"rowspan="2"></td>
-			<td height="100"rowspan="2">----------------</td>
+			<td height="100"rowspan="2">****</td>
+			<td height="100"rowspan="2">******</td>
 		</tr>
 	</table>
 	<br>
@@ -181,9 +187,13 @@
 			<td>****</td>
 			<td>****</td>
 		</tr>
-	</table>	
-	<a href="javascript:history.back();">뒤로가기</a>
-	<a href="recruitFrom.html">수정</a>
+	</table>
+	<br><br>	
+	<div id="btn">
+		<input type="button" onclick="history.back()" value="뒤로가기";>
+		<input type="button" onclick="location.href=('recruitModFrom.html')" value="수정";>
+	</div>
+	<br><br>
 </body>
 </html>
       
