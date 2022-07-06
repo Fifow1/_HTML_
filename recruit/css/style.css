@@ -34,7 +34,7 @@ header .logo div{
 
 header .logo img{
     height: 50px;
-    margin-top: 5px; /* Optical alignment of the logo */
+    margin-top: 5px; 
 }
 
 header nav{
@@ -47,6 +47,7 @@ header nav li{
     height: 100%;
     float: left;
     margin-right: 30px;
+    background-color:'#FFF';
 }
 
 header nav li:last-of-type{
@@ -59,7 +60,7 @@ header nav span {
 }
 
 header nav a{
-	color:'#FFBF00';
+	background-color:'#FFF';
 }
 
 header nav .button{

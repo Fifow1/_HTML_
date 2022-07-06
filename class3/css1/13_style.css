@@ -1,0 +1,57 @@
+  		#logo {
+  			float: left;
+  			
+  			width: 100px;
+  			height: 100p;
+  			background-color: blue;
+  			margin-left: 30px;
+  		}
+  		
+  		#test {	
+  			float: right;
+  			clear: both;
+  			padding-right: 10px;
+  				
+  		}
+  		
+  		ul.login {
+  			list-style-type: none;
+  			float: right;
+  		}
+  		
+  		li.qw {
+  			width: 100px;
+  			height: 100p;
+  			margin-right:40px;
+  			float: left; 
+  			background-color: blue;
+  		}
+  		
+  		ul.explain {
+  			list-style-type: none;
+  			float: left;
+  		}
+  		
+  		li.qwe {
+  			margin-left:300px;
+  			float:right;
+  			background-color: blue;
+  		}
+  		table, th, td{
+
+            border:1px solid black;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: white;
+            
+        }
+
+        th, td {
+
+            padding: 10px;
+        }
+        .table{
+        	padding-top: 70px;
+        }
+  		
+  		
